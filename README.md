@@ -1,9 +1,12 @@
 # Socketio gameserver for my compenv project
 Backend for my compenv unity game
 
-https://dashboard.heroku.com/apps/socketio-gameserver
+```
+# change to randomly generated port number (see below)
+ws://socketio-gameserver.herokuapp.com:4567/socket.io/?EIO=4&transport=websocket
+```
 
-Check dynamically generated port number of Heroku instance:
+Heroku dynamically generates port numbers for deployed instances. To check, run this terminal command:
 ```
 heroku run printenv
 ```
