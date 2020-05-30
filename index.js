@@ -1,9 +1,10 @@
-var io = require('socket.io')(process.env.PORT || 4567);
+const FALLBACK_PORT = '5039'; // Heroku uses port 5039 as standard
+var io = require('socket.io')(process.env.PORT || FALLBACK_PORT);
 
 // CUSTOM CLASSES
 var Player = require('./classes/player.js');
 
-console.log('Server has started');
+console.log(`Server has started on port ${FALLBACK_PORT}`);
 
 var players = [];
 var sockets = [];
