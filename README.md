@@ -9,6 +9,5 @@ heroku run printenv
 The port number should be omitted when accessing the server remotely:
 
 ```
-# change to randomly generated port number (see below)
 ws://socketio-gameserver.herokuapp.com/socket.io/?EIO=4&transport=websocket
 ```
