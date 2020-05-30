@@ -1,0 +1,16 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "A node js server for my unity game",
+  "main": "index.js",
+  "author": "Moritz Salla",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
